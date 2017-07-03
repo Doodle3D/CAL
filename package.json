@@ -1,4 +1,6 @@
 {
+  "name": "CAL",
+  "version": "0.0.2",
   "jspm": {
     "name": "CAL",
     "main": "index.js",
