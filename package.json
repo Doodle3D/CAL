@@ -34,7 +34,7 @@
       }
     }
   },
-  "devDependencies": {
+  "dependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0"
