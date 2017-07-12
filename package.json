@@ -2,6 +2,10 @@
   "name": "CAL",
   "version": "0.0.2",
   "main": "src/index.js",
+  "scripts": {
+    "prepare": "echo '@@ prepare'",
+    "postinstall": "echo 'postinstall'"
+  },
   "jspm": {
     "name": "CAL",
     "main": "index.js",
