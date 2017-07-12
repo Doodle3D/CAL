@@ -1,6 +1,6 @@
 {
   "name": "@doodle3d/cal",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "main": "lib/index.js",
   "module": "lib-module/index.js",
   "esnext": "src/index.js",
