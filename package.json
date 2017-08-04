@@ -4,6 +4,7 @@
   "main": "lib/index.js",
   "module": "lib-module/index.js",
   "esnext": "src/index.js",
+  "license": "MIT",
   "scripts": {
     "prepublish": "npm run build",
     "build": "npm run build:main && npm run build:module",
