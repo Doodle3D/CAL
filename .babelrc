@@ -1,0 +1,32 @@
+{
+  "plugins": [
+    "babel-plugin-transform-object-rest-spread"
+  ],
+  "env": {
+    // transpile to common node & browser compatible js, keeping modules
+    "module": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "browsers": ["last 3 versions"],
+            "ie": 11
+          },
+          "modules": false,
+          /*"debug": true*/
+        }]
+      ]
+    },
+    // transpile to common node & browser compatible js, using commonjs
+    "main": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "browsers": ["last 3 versions"],
+            "ie": 11
+          },
+          /*"debug": true*/
+        }]
+      ]
+    }
+  }
+} 

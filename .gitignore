@@ -1,5 +1,8 @@
-
+node_modules/*
 jspm_packages/*
+
+lib/*
+lib-module/*
 
 src/math/matrix.3x2.js
 
