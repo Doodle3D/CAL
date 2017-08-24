@@ -74,7 +74,7 @@ export default class Text extends Matrix {
 		if (this.stroke) {
 			this.strokeColor.setStroke(context);
 			context.lineWidth = this.strokeWidth;
-			context.strokeColor(text, x, y);
+			context.strokeText(text, x, y);
 		}
 		if (this.fill) {
 			if (this.shadow) {
